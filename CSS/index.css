@@ -1,0 +1,127 @@
+body {
+    background-image: url("../Images/bg1.png");
+    background-size: 80%;
+    background-position: top;
+    margin: 0px;
+    padding: 50px;
+    overflow: hidden;
+    display: flex;
+    cursor: url("../Images/cursor.png"), pointer;
+}
+#cornerdemon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+#timeout{
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#entry{
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: auto;
+    z-index: 2;
+}
+#entry button{
+    width: 500px;
+    height: 200px;
+}
+#entry > div {
+    display: flex;
+    padding: 10px;
+}
+#entry > div > p{
+    padding: 5px;
+    background-color: white;
+    font-size:20px;
+    margin-left: 20px;
+}
+#navbar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    text-decoration: underline;
+    background-color: rgba(66, 66, 66, 0.699);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbar > a{
+    margin-left: 70px;
+}
+
+#navbar > a:visited{
+    color: white;
+}
+
+#license{
+    border: 10px dashed red;
+}
+#license:hover{
+    border: none;
+    background-color: black;
+}
+#aboutmecontainer{
+    margin-top: 200px;
+    position: relative;
+    z-index: -1;
+}
+#aboutme{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 40px;
+    z-index: -2;
+    width: 520px;
+    height: 300px;
+}
+#aboutmecontainer > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#bio{
+    padding: 30px;
+    width: 400px;
+    font-family: Creepster;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(236, 115, 172);
+    border: 5px solid black;
+}
+#bio > *{
+    font-family: Creepster;
+    font-size: 50px;
+}
+#demonarea{
+    float:right;
+}
+#demonarea > img{
+    width: 20vw;
+    margin-top: 0px;
+    font-weight: 900;
+    border: 5px dotted blue;
+    color: white;
+    background-color: aqua;
+}
+#demonarea > h2{
+    margin: 0px; 
+    font-weight: bold; 
+    font-family: monospace; 
+    color: white;
+    font-size: 30px;
+}
